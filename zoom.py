@@ -15,7 +15,7 @@ headers = {
 }
 
 def downloader():
-
+    #defino la fecha 2020-12-1 porque en mi caso en este mes y año tengo la primer grabación mas antigua.
     datefrom = datetime(2020, 12, 1).date()
     dateto = datefrom + timedelta(days=30)
 
